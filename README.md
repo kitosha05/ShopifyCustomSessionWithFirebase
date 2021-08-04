@@ -13,7 +13,7 @@ Instructions:
   deleteCallback,
 } from "./firebase/firebase.utils";
 
-5.Change SESSION_STORAGE to CustomSessionStorage and provide the callback function parameters:
+5.In server.js change SESSION_STORAGE to CustomSessionStorage and provide the callback function parameters:
 
 SESSION_STORAGE: new Shopify.Session.CustomSessionStorage(
     storeCallBack,
