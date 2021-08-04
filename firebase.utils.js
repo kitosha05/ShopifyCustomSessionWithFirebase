@@ -85,13 +85,7 @@ const setSession = async (id) => {
   if (session.expires && typeof session.expires === "string") {
     session.expires = new Date(session.expires);
   }
-  console.log(
-    session.shop,
-    session.accessToken,
-    session.state,
-    session.scope,
-    session.id
-  );
+
   return session;
 };
 export const loadCallback = async (id) => {
